@@ -32,6 +32,10 @@ public class FiguraGeometrica implements CalculosGeometricos{
         return totalFiguras;
     }
 
+    public int getId() {
+        return id;
+    }
+
     public String getInfo() {
         return "";
     }

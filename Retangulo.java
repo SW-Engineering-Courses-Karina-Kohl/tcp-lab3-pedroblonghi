@@ -36,8 +36,10 @@ public class Retangulo extends FiguraGeometrica{
         return "Retângulo";
     }
 
+    
+
     public String getDetalhes() {
-        return "";
+        return String.format("ID: %s, Cor: %s, Tipo: %s, Largura: %f, Altura: %f, Área: %s, Perímetro: %s", getId(), getCor(), getTipoFigura(), largura, altura, calcularArea(), calcularPerimetro());
     }
 
 
